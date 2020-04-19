@@ -3,28 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <title>Activity 1: Basic HTML Bio</title>
+
+  <style>
+    img {
+      float: left;
+    }
+    </style>
 </head>
 
 <body>
-  <h3>Amisha</h1>
-  <img src="../tiger.jpg" alt="picture" />
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <p>
-    Thank you for visiting my page and finding out a little about me.
-  </p>
+  <main class="container">
+    <div id="main-bio">
+        <h2 id="bio-name">Amisha's Corner</h2>
+        <img id="bio-image" src="./images/girl-doing-yoga-cartoon.webp"  alt="Amisha">
+      <p>
+        Thank you for visiting my page and finding out a little about me.
+      </p>
 
-  <p>
-    My hobbies are reading, music, and meditating. One interesting thing to not about my reading preference is to read non-fiction. I like many variaties of music. My favorite hobby though is meditating.
-  </p>
+      <p>
+        My hobbies are reading, music, and meditating. One interesting thing to note about my reading preference is I prefer to read non-fiction. I like many genres of music. My favorite hobby though is meditating.
+      </p>
+    </div>
+    <div>
+      <aside id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="#">amishap79@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/amisha-patel-a6036159/" target="_blank">LinkedIn</a></li>
+          <!--li><strong>Github:</strong> <a href="#">sampleName</a></li>
+          <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li-->
+        </ul>
+      </aside>
+    </div>
+</main>
 
-  <lu>
-    <li>
-      <a href="https://www.linkedin.com/in/amisha-patel-a6036159/" target="_blank">LinkedIn</a>
-    </li>
-  </lu>
-
-
-  <table  border="1">
+  <!--table  border="1">
     <thead>
       <tr>
         <th colspan="2">Favorit Hobbies</th>
@@ -44,7 +61,7 @@
         <td>*****</td>
       </tr>
     </tbody>
-  </table>
+  </table-->
 
 </body>
 
